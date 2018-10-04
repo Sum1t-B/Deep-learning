@@ -59,6 +59,7 @@ while u!=w :
 			if u==w and i==7 and tim>=1:
 			#	print("w is d:", w)
 				break
+				
 
-		
+print ('The Answer is \n')
 print (w)
