@@ -31,7 +31,7 @@ def do_gradient_descent() :
 		w = w - eta * dw
 		b = b - eta * db	
 
-def do_momentum_gradient_descent() :
+def do_momentum_gradient_desc() :
 	w,b, eta = init_w, init_b, 1.0
 	prev_v_w, prev_v_b, gamma = 0, 0, 0.9
 	for i in range(max_epochs) :
